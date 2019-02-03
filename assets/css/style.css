@@ -1,3 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:100,200,300,400,500,600,700,800|Montserrat:100,200,300,400,500,600,700,800);');
+
+
+/*-------------------------------------- TITLES--*/
+
+
+.navbar-default .navbar-brand {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.band-name {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    font-size: 92px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.title {
+    font-family: "Montserrat", serif;
+    font-weight: 200;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .band-name {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 100;
+        font-size: 48px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 479px) {
+    .band-name {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 100;
+        font-size: 36px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 479px) {
+    .title {
+        font-family: "Montserrat", serif;
+        font-weight: 200;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+}
+
 /*-------------------------------------- NAVBAR--*/
 
 .navbar {
@@ -7,6 +76,7 @@
     padding: 25px 50px;
 
 }
+
 
 
 /*-------------------------------------- BACKGROUND VIDEO --*/
@@ -68,12 +138,11 @@
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    width: 700px;
+    width: 767px;
 }
 
 
 /*-------------------------------------- BUTTONS --*/
-
 
 .btn {
     padding: 10px 20px;
@@ -95,8 +164,8 @@
     text-align: center;
     font-size: 26px;
     line-height: 7px;
-    color: #fafafa;
-    background-color: #bfbfbf;
+    color: #ffff;
+    background-color: transparent;
     border-radius: 50%;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -120,7 +189,6 @@
 }
 */
 
-
 /*-------------------------------------- FOOTER --*/
 
 footer {
@@ -132,3 +200,21 @@ footer {
     display: flex;
 }
 
+/*-------------------------------------- HOVER --
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #ffffff;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    */
