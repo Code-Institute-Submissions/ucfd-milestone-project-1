@@ -92,6 +92,9 @@ Simply describe how you deployed the website to GitHub Pages (if that's what you
 
 Credits
 
+background video: https://codepen.io/mattgrosswork/pen/jrdwK
+video mute: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_muted
+
 Content
 
 The text for section Y was copied from the Wikipedia article Z

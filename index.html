@@ -43,8 +43,15 @@
             <div><a class="btn btn-primary btn-lg" href="tour.html" role="button">Tour Dates</a><a class="btn btn-primary btn-lg" href="music.html" role="button">Buy Album</a></div>
         </div>
     </setcion>
-    <footer>
-
+    <footer class="container-fluid pages-footer">
+        <div id="footer-details" class="row">
+            <div class="col-sm-12">
+                <ul class="list-inline">
+                    <li><button onclick="enableMute()" class="volume-btn"><i class="fa fa-volume-off" aria-hidden="true"></i></button></li>
+                    <li><button onclick="disableMute()" class="volume-btn"><i class="fa fa-volume-up" aria-hidden="true"></i></button></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
     <!-- jQuery library -->
@@ -52,6 +59,19 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!-- Volume On/Off -->
+    <script>
+            var vid = document.getElementById("video-background");
+
+            function enableMute() {
+                vid.muted = true;
+            }
+
+            function disableMute() {
+                vid.muted = false;
+            }
+        </script>
 </body>
 
 </html>

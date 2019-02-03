@@ -26,6 +26,10 @@
 @media (max-width: 767px) {
     #video-background {
         width: 100vw;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 }
 
@@ -84,7 +88,7 @@
     background-color: transparent;
 }
 
-.button {
+.volume-btn {
     height: 48px;
     width: 48px;
     /*padding: 12px 0;*/
@@ -100,6 +104,8 @@
     -o-transition: all 0.35s ease-in-out;
 }
 
+
+
 /*@media (max-width: 767px) {
     .home-container {
         display: flex;
@@ -113,3 +119,16 @@
     }
 }
 */
+
+
+/*-------------------------------------- FOOTER --*/
+
+footer {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
