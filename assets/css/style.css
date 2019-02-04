@@ -3,6 +3,7 @@
 body {
     background-color: #676767;
 }
+
 /*-------------------------------------- FONTS--*/
 
 .navbar-default .navbar-brand {
@@ -52,6 +53,39 @@ body {
         font-family: "Montserrat", serif;
         font-weight: 200;
         font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+}
+
+
+.album-name {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+@media (min-width: 600px) {
+    .album-name {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 100;
+        font-size: 54px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 768px) {
+    .album-name {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 100;
+        font-size: 72px;
         margin-top: 20px;
         margin-bottom: 20px;
         color: #ffffff;
@@ -164,6 +198,120 @@ body {
     width: 768px;
 }
 
+/*-------------------------------------- MUSIC PAGE --*/
+
+.music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+}
+
+@media (min-width: 768px) {
+    .music {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 480px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .music {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 480px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+
+    }
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+}
+
+/*@media (min-width: 992px) {
+    .flex-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    }
+}*/
+
+.music-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 768px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+}
+
+@media (min-width: 768px) {
+    .music-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 320px;
+        width: 992px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .music-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 320px;
+        width: 768px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    }
+}
+
+
+.album {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .album {
+        text-align: left;
+        margin-left: 20px;
+    }
+}
 
 /*-------------------------------------- BUTTONS --*/
 
@@ -191,7 +339,6 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 
 
 /*@media (max-width: 767px) {
@@ -222,7 +369,7 @@ footer {
 
 @media (min-width: 992px) {
     footer {
-        background-color:transparent;
+        background-color: transparent;
         width: 100%;
         padding-top: 50px;
         padding-bottom: 100px;

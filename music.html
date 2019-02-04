@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                        <a class="navbar-brand hvr-underline-from-center" href="index.html">The Fiddle Case</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hvr-underline-from-center"><a href="band.html">Band</a></li>
+                            <li class="hvr-underline-from-center"><a href="music.html">Music</a></li>
+                            <li class="hvr-underline-from-center"><a href="video.html">Video</a></li>
+                            <li class="hvr-underline-from-center"><a href="tour.html">Tour Dates</a></li>
+                            <li class="hvr-underline-from-center"><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <setcion class="music">
+        <div class="music-container">
+            <div class="col-sm-4 flex-center">
+                <img src="assets/images/The Fiddle Case Write me a Letter CD cover.jpeg" alt="The Fiddle Case New Album Write Me a Letter" style="height:250px">
+            </div>
+            <div class="col-sm-8 flex-center">
+                <div class="album">
+                    <h2 class="title">New album just released</h2>
+                    <h1 class="album-name">Write Me A Letter</h1>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="9XY4RP2TDNZ3U">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div>
+            <audio controls controlsList="nodownload">
+                      <source src="assets/music/01 Write Me A Letter.mp3" type="audio/mpeg">Your browser does not support the audio tag.
+                </audio>
+        </div>
+    </setcion>
+    <footer class="container-fluid pages-footer">
+        <div id="footer-details" class="row">
+            <div class="col-sm-12">
+                <ul class="list-inline">
+                    <li><button onclick="enableMute()" class="volume-btn"><i class="fa fa-volume-off" aria-hidden="true"></i></button></li>
+                    <li><button onclick="disableMute()" class="volume-btn"><i class="fa fa-volume-up" aria-hidden="true"></i></button></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Volume On/Off -->
+    <script>
+        var vid = document.getElementById("video-background");
+
+        function enableMute() {
+            vid.muted = true;
+        }
+
+        function disableMute() {
+            vid.muted = false;
+        }
+    </script>
+</body>
+
+</html>
