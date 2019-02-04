@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:100,200,300,400,500,600,700,800|Montserrat:100,200,300,400,500,600,700,800);');
 
 
-/*-------------------------------------- TITLES--*/
-
+/*-------------------------------------- FONTS--*/
 
 .navbar-default .navbar-brand {
     font-family: 'Libre Baskerville', serif;
@@ -152,10 +151,6 @@
 
 }
 
-.btn-primary:hover {
-    color: #FEA;
-    background-color: transparent;
-}
 
 .volume-btn {
     height: 48px;
@@ -200,21 +195,31 @@ footer {
     display: flex;
 }
 
-/*-------------------------------------- HOVER --
+/*-------------------------------------- HOVER -- */
 
-.hvr-underline-from-left:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 100%;
-    bottom: 0;
-    background: #ffffff;
-    height: 4px;
-    -webkit-transition-property: right;
-    transition-property: right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-    */
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.hvr-underline-from-center:before {
+    background:#ffffff;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
