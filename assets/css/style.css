@@ -381,7 +381,21 @@ footer {
     margin: 0;
 }
 
-
+.social-links li a i {
+    height: 48px;
+    width: 48px;
+    /*padding: 12px 0;*/
+    text-align: center;
+    font-size: 26px;
+    line-height: 7px;
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 /*-------------------------------------- HOVER -- */
 
