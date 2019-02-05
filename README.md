@@ -69,6 +69,10 @@ List any challenges you encountered during testing and how you solved them here.
 
 While testing the Music page, I notice that adjacent images are not properly aligned ...
 
+Home page
+
+While testing the Music page I noticed that the audio control allowed for visitor to download the mp3. 
+
 A particularly useful form for describing your testing process is via scenarios, such as:
 
 Contact form:
@@ -94,6 +98,7 @@ Credits
 
 background video: https://codepen.io/mattgrosswork/pen/jrdwK
 video mute: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_muted
+
 
 Content
 

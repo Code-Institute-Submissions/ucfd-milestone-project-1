@@ -110,8 +110,7 @@ body {
     color: #ffffff;
     background-color: #b90d14;
     border: 0px;
-    padding: 25px 50px;
-
+   
 }
 
 @media (min-width: 992px) {
@@ -119,7 +118,6 @@ body {
         color: #ffffff;
         background-color: transparent;
         border: 0px;
-        padding: 25px 50px;
 
     }
 }
@@ -195,7 +193,7 @@ body {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    width: 768px;
+    max-width: 90%;
 }
 
 /*-------------------------------------- MUSIC PAGE --*/
@@ -267,20 +265,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 480px;
-    width: 768px;
+    max-width: 90%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .music-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 320px;
-        width: 992px;
+        width: 90%;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -294,7 +292,7 @@ body {
         justify-content: center;
         align-items: center;
         height: 320px;
-        width: 768px;
+        max-width: 90%;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -379,7 +377,9 @@ footer {
     }
 }
 
-
+.row {
+    margin: 0;
+}
 
 
 
