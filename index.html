@@ -13,33 +13,32 @@
     <header>
         <nav class="navbar navbar-default">
             <div class="container">
-               
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                        <a class="navbar-brand hvr-underline-from-center" href="index.html">The Fiddle Case</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="hvr-underline-from-center"><a href="band.html">Band</a></li>
-                            <li class="hvr-underline-from-center"><a href="music.html">Music</a></li>
-                            <li class="hvr-underline-from-center"><a href="video.html">Video</a></li>
-                            <li class="hvr-underline-from-center"><a href="tour.html">Tour Dates</a></li>
-                            <li class="hvr-underline-from-center"><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                
+                    <a class="navbar-brand hvr-underline-from-center" href="index.html">The Fiddle Case</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hvr-underline-from-center"><a href="band.html">Band</a></li>
+                        <li class="hvr-underline-from-center"><a href="music.html">Music</a></li>
+                        <li class="hvr-underline-from-center"><a href="video.html">Video</a></li>
+                        <li class="hvr-underline-from-center"><a href="tour.html">Tour Dates</a></li>
+                        <li class="hvr-underline-from-center"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <setcion class="home">
         <video autoplay loop id="video-background" muted plays-inline>
             <source src="assets/videos/The Fiddle Case play Liscannor Bay.mp4" type="video/mp4"> </source></video>
-            <div class="home-container">
+        <div class="home-container">
             <h2 class="title">New album just released</h2>
             <h1 class="band-name">The Fiddle Case</h1>
             <div><a class="btn btn-primary btn-lg hvr-underline-from-center" href="tour.html" role="button">Tour Dates</a><a class="btn btn-primary btn-lg hvr-underline-from-center" href="music.html" role="button">Buy Album</a></div>
@@ -61,19 +60,19 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    
+
     <!-- Volume On/Off -->
     <script>
-            var vid = document.getElementById("video-background");
+        var vid = document.getElementById("video-background");
 
-            function enableMute() {
-                vid.muted = true;
-            }
+        function enableMute() {
+            vid.muted = true;
+        }
 
-            function disableMute() {
-                vid.muted = false;
-            }
-        </script>
+        function disableMute() {
+            vid.muted = false;
+        }
+    </script>
 </body>
 
 </html>
