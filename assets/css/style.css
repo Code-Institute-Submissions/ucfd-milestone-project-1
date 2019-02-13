@@ -2,6 +2,9 @@
 
 body {
     background-color: #676767;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /*-------------------------------------- BACKGROUND IMAGE --*/
@@ -373,9 +376,21 @@ body {
 
 /*-------------------------------------- BUTTONS --*/
 
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/*.a:active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+}*/
+
+
 .btn {
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     border: 1px;
     border-color: #ffffff;
 
@@ -401,6 +416,7 @@ body {
 
 .tickets {
     background-color: #b90d14;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -510,6 +526,7 @@ footer {
 
 .band {
     display: flex;
+    height: 60vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -590,6 +607,18 @@ footer {
 
 /*-------------------------------------- TOUR PAGE -- */
 
+.tour {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+
+}
+
 .tour-bg {
     height: 200px;
     background-color: rgba(0, 0, 0, .6);
@@ -599,6 +628,7 @@ footer {
 
 .contact {
     display: flex;
+    height: 60vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
