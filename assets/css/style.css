@@ -422,7 +422,9 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
-
+.volume-btn:focus {
+    outline: none !important;
+}
 
 .tickets {
     background-color: #b90d14;
@@ -447,9 +449,6 @@ button[type="submit"] {
     color: #fafafa;
 }
 
-.volume-btn:focus {
-  outline: none !important;
-}
 
 /*@media (max-width: 767px) {
     .home-container {
@@ -541,7 +540,7 @@ footer {
 
 .band {
     display: flex;
-    height: 60vh;
+    min-height: height: 60vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -569,6 +568,21 @@ footer {
     background-color: #ffffff;
 }
 
+.adam {
+    background: url("../images/Adam Shapiro The Fiddle Case.png");
+}
+
+.eoin {
+    background: url(" ../images/Eoin O'Neil The Fiddle Case.png");
+}
+
+.jon {
+    background: url("../images/Jon O'Connell The Fiddle Case.png");
+}
+
+.kieran {
+    background: url("../images/Kieran O'Connell The Fiddle Case.png");
+}
 .band-members {
     display: flex;
     flex-direction: column;
