@@ -98,7 +98,11 @@ Credits
 
 background video: https://codepen.io/mattgrosswork/pen/jrdwK
 video mute: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_muted
-
+images: https://www.instagram.com/thefiddlecase/
+https://www.youtube.com/watch?v=79yEERerPFs
+https://www.facebook.com/thefiddlecase/photos/a.164230393922854/164230963922797/?type=3&theater
+https://www.facebook.com/thefiddlecase/photos/a.164230393922854/164230737256153/?type=3&theater
+https://www.facebook.com/photo.php?fbid=849735488466377&set=t.776657838&type=3&theater
 
 Content
 

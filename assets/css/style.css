@@ -4,8 +4,22 @@ body {
     background-color: #676767;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
 }
+
+header {
+    height: 50px;
+    flex-shrink: 1;
+    background-color: transparent;
+    color: white
+}
+
+setcion {
+    flex: 1 0 auto;
+}
+
+
+
 
 /*-------------------------------------- BACKGROUND IMAGE --*/
 
@@ -465,8 +479,9 @@ button[type="submit"] {
 */
 
 /*-------------------------------------- FOOTER --*/
-
 footer {
+    flex-shrink: 0;
+    color: white;
     background-color: #b90d14;
     width: 100%;
     padding-top: 50px;
@@ -583,6 +598,7 @@ footer {
 .kieran {
     background: url("../images/Kieran O'Connell The Fiddle Case.png");
 }
+
 .band-members {
     display: flex;
     flex-direction: column;
