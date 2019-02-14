@@ -189,6 +189,7 @@ section {
 /*-------------------------------------- NAVBAR--*/
 
 .navbar {
+    z-index: 10;
     color: #ffffff;
     background-color: #b90d14;
     border: 0px;
@@ -197,6 +198,7 @@ section {
 
 @media (min-width: 992px) {
     .navbar {
+        z-index: 10;
         color: #ffffff;
         background-color: transparent;
         border: 0px;
@@ -556,7 +558,7 @@ footer {
 
 .band {
     display: flex;
-    min-height: height: 60vh;
+    min-height: 60vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -706,30 +708,9 @@ footer {
 
 /*-------------------------------------- VIDEO PAGE -- */
 
-.video {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
+.embed-responsive {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-/*
-.video-container iframe,
-.video-container object,
-.video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}*/
