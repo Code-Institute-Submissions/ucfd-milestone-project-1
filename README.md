@@ -6,6 +6,8 @@ CREATE A WEBSITE FOR A BAND
 The Fiddle Case is a folk and traditional music group from West Clare. With a combined experience of of over 100 years of playing sessions around the world. 
 The Fiddle Case now wish to establish an online presence to promote their new album, their 2019 tour dates, and social media presence. The focus of the band is to communicate tour dates to their fans and sell their music.
 
+You can view the website <a href="https://github.com/TobinWebDesign/ucfd-milestone-project">here</a> using GitHub pages.
+
 <h1>UX</h1>
 
 The website is to be used by new and old fans. 
@@ -25,6 +27,11 @@ The website will also be used by the Fiddle Case to promote their new album and 
 <li>As a band, I want to showcase our music, so that we can sell albums. </li>
 <li>As a band, I want to publicise our tour dates, so our fans will come and watch us live. </li>
 
+Initial Wireframes for the site:
+
+Desktop: <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Home%20Desktop.png">Home </a>| <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Music%20Desktop.png">Music </a>| <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Video%20Desktop.png">Video </a>| <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Band%20-%20Desktop.png">Band </a> | <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Tour%20Dates%20desktop.png">Tour Dates </a> | <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Contact%20Page%20Desktop.png">Contact Us </a>
+
+Mobile: <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Home%20Mobile.png">Home </a>| <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/tree/master/assets/WireFrames/Music%20Mobile">Music </a>| <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Video%20Mobile.png">Video </a>| <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/tree/master/assets/WireFrames/Band%20Mobile">Band </a> | <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/tree/master/assets/WireFrames/Tour%20Mobile"> Tour Dates </a> | <a href="https://github.com/TobinWebDesign/ucfd-milestone-project/blob/master/assets/WireFrames/Contact%20Mobile.png">Contact Us </a>
 
 <h1>Features</h1>
 
@@ -52,66 +59,53 @@ In this section, you should mention all of the languages, frameworks, libraries,
 <li>The project uses JQuery to simplify DOM manipulation.</li>
 <h3><a href="https://en.wikipedia.org/wiki/HTML5">HTML5</h3></a>
 <li>HTML5 was used for the semantic structure and presenting the content of the webpage.</li>
-<h3><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">CSS3</h3>
+<h3><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">CSS3</h3></a>
 <li>CSS3 was used for the styling of the content to produce an aesthetically pleasing viewing experience.</li>
-<h3><a href="https://getbootstrap.com/">Bootstrap</h3>
+<h3><a href="https://getbootstrap.com/">Bootstrap</h3></a>
 <li>Bootstrap provides responsives layouts and components such as the navigation menu for quick, easy, efficient web development, all in a mobile-first approach.</li>
-<h3><a href="https://fontawesome.com/">Font Awesome</h3>
+<h3><a href="https://fontawesome.com/">Font Awesome</h3></a>
 <li>Font Awesome was used for the social links, mainly the social media icons for a professional finish.</li>
-<h3><a href="http://ianlunn.github.io/Hover/">Hover.css</h3>
+<h3><a href="http://ianlunn.github.io/Hover/">Hover.css</h3></a>
 <li>Hover.css was used power hover effects applied to buttons elements</li>
 
 
 
 <h1>Testing</h1>
 
-Go over all your pages and ensure they all look and work as expected
-List any challenges you encountered during testing and how you solved them here. Example;
+Below is testing conducted on the website.
 
-While testing the Music page, I notice that adjacent images are not properly aligned ...
+<li>Initial index.html test on cloud 9, using text “Hello” after adding the initial structure (html, body, header, section, and footer). </li>
+ 
+<h2>Testing the Booking form</h2>
+<li>First I clicked the 'Invite Us to Your Local Venue' button - No request was sent as no information was filled in.</li>
+<li>I filled out the form without the @ symbol for the e-mail address. As expected the form failed to submit due to incorrect formatting of the e-mail address.</li>
+<li>After filling in the form I clicked the 'Invite Us to Your Local Venue' button again, this time the submission was successful. This is noted by the information appearing in the URL.</li>
+ 
+<h2>Testing links betweens pages</h2>
+For this section I tested all of the links between the pages, navigation bar and and links built into the page. Testing all of the links resulted in everything linking to another page in the website working as intended by staying within the tab.
+All links to which the user is directed to another site opened in a separate browser tab. These links include social site and the third-party ticket purchasing site.
+ 
+<h2>Issues discovered while testing and how they were rectified.</h2>
+<li>While testing the videos pages the embedded videos were disappearing when testing the responsiveness of the page. There was a conflict with the class video flex display the bootstrap element. After deleting the class video the issue was resolved. </li>
+<li>While testing the Music page I noticed that the audio control allowed for visitors to download the mp3. This had to be rectified as the band does not want to give music away for free. </li>
+<li>For testing the responsive aspect of the website I used a Google Chrome Developer Tools</li>
+<li>Validating the code was done with the help of <a href="https://validator.w3.org/nu/#textarea">Nu Html Checker</a> and validating of the CSS was done with the help of <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service, Jigsaw</a></li>
 
-Home page
-
-While testing the Music page I noticed that the audio control allowed for visitor to download the mp3. 
-
-A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-
-Go to the "Contact Us" page
+This website is currently viewable with no deployment issues in:
+<li>Google Chrome
+<li>Safari
+Cloud 9 was the editor that I used in the coding of the website. 
 
 
-Try to submit the empty form and verify that an error message about the required fields appears
-
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-
-Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-<h1>Deployment</h1>
-
-Simply describe how you deployed the website to GitHub Pages (if that's what you used) or any other hosting service. Include a link to the deployed application.
-
+<h1>Depolyment</h1>
+The website was deployed using Github Pages, you can view it <a href="https://github.com/TobinWebDesign/ucfd-milestone-project">here</a>.
 <h1>Credits</h1>
 
-background video: https://codepen.io/mattgrosswork/pen/jrdwK
-video mute: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_prop_muted
-images: https://www.instagram.com/thefiddlecase/
-https://www.youtube.com/watch?v=79yEERerPFs
-https://www.facebook.com/thefiddlecase/photos/a.164230393922854/164230963922797/?type=3&theater
-https://www.facebook.com/thefiddlecase/photos/a.164230393922854/164230737256153/?type=3&theater
-https://www.facebook.com/photo.php?fbid=849735488466377&set=t.776657838&type=3&theater
+<h2>Media</h2>
 
-<h1>Content</h1>
+The photos and Videos used in this website were obtained from members of The Fiddle Case 
 
-The text for section Y was copied from the Wikipedia article Z
+<h2>Acknowledgements</h2>
 
-<h1>Media</h1>
-
-The photos and Videos used in this site were obtained from members of The Fiddle Case 
-Acknowledgements
 I received inspiration for this project from www.jamiecullum.com www.lucabloom.com
 

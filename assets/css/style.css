@@ -52,7 +52,7 @@ section {
 .band-name {
     font-family: 'Libre Baskerville', serif;
     font-weight: 100;
-    font-size: 36px;
+    font-size: 32px;
     margin-top: 15px;
     margin-bottom: 15px;
     color: #ffffff;
@@ -222,15 +222,7 @@ section {
     z-index: -100;
 }
 
-/* @media (min-width: 768px) {
-    #video-background {
-        width: 100vw;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-} */
+
 
 @media (min-width: 992px) {
     #video-background {
