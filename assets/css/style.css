@@ -174,17 +174,6 @@ section {
 
 }
 
-/*
-@media (min-width: 478px) {
-    .band-name {
-        font-family: 'Libre Baskerville', serif;
-        font-weight: 100;
-        font-size: 48px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        color: #ffffff;
-    }
-}*/
 
 /*-------------------------------------- NAVBAR--*/
 
@@ -317,18 +306,6 @@ section {
     -ms-flex-pack: center;
 }
 
-/*@media (min-width: 992px) {
-    .flex-center {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 40vh;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-    }
-}*/
 
 .music-container {
     display: flex;
@@ -398,12 +375,6 @@ section {
     border: 1px !important;
 }
 
-/*
-.a:active {
-    color: #fff;
-    background-color: transparent !important;
-}
-*/
 
 .btn {
     padding: 10px 20px;
@@ -457,20 +428,6 @@ button[type="submit"] {
     color: #fafafa;
 }
 
-
-/*@media (max-width: 767px) {
-    .home-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 40vh;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        width: 100%;
-    }
-}
-*/
 
 /*-------------------------------------- FOOTER --*/
 
@@ -559,80 +516,6 @@ footer {
     -ms-flex-pack: center;
 }
 
-.band-member-profile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    /* max-width: 90%; */
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-}
-
-.band-member-profile-photo {
-    padding: 10px;
-    height: 200px;
-    width: 200px;
-    background-color: #ffffff;
-}
-
-.adam {
-    background: url("../images/Adam Shapiro The Fiddle Case.png");
-}
-
-.eoin {
-    background: url(" ../images/Eoin O'Neil The Fiddle Case.png");
-}
-
-.jon {
-    background: url("../images/Jon O'Connell The Fiddle Case.png");
-}
-
-.kieran {
-    background: url("../images/Kieran O'Connell The Fiddle Case.png");
-}
-
-.band-members {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    max-width: 90%;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-}
-
-@media (min-width: 992px) {
-    .band-members {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        max-width: 90%;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-    }
-}
-
-@media (min-width: 768px) {
-    .music-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: 320px;
-        max-width: 90%;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-    }
-}
 
 .band-heading {
     text-align: center;
@@ -643,6 +526,48 @@ footer {
         width: 50%;
         padding: 0;
     }
+}
+
+.band-member-profile {
+    margin-bottom: 20px;
+    position: relative;
+    min-width: 200px;
+}
+
+.band-member-profile-photo {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    background-color: #ffffff;
+}
+
+.band-member-profile:hover .overlay {
+    opacity: .8;
+}
+
+.text {
+    color: black;
+    font-size: 24px;
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /*-------------------------------------- TOUR PAGE -- */
