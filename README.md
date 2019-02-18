@@ -6,7 +6,7 @@ CREATE A WEBSITE FOR A BAND
 The Fiddle Case is a folk and traditional music group from West Clare. With a combined experience of of over 100 years of playing sessions around the world. 
 The Fiddle Case now wish to establish an online presence to promote their new album, their 2019 tour dates, and social media presence. The focus of the band is to communicate tour dates to their fans and sell their music.
 
-You can view the website <a href="https://github.com/TobinWebDesign/ucfd-milestone-project">here</a> using GitHub pages.
+You can view the website <a href="https://tobinwebdesign.github.io/ucfd-milestone-project/">here</a> using GitHub pages.
 
 <h1>UX</h1>
 
@@ -98,7 +98,7 @@ Cloud 9 was the editor that I used in the coding of the website.
 
 
 <h1>Depolyment</h1>
-The website was deployed using Github Pages, you can view it <a href="https://github.com/TobinWebDesign/ucfd-milestone-project">here</a>.
+The website was deployed using Github Pages, you can view it <a href="https://tobinwebdesign.github.io/ucfd-milestone-project/">here</a>.
 <h1>Credits</h1>
 
 <h2>Media</h2>
